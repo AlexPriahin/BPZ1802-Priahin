@@ -1,20 +1,8 @@
 #include <stdio.h>
 #include <math.h>
-
-
-double function(double x)
+double func(double x)
 {
-	double f;
-	f = -sqrt(x);
-	return(f);
-}
-
-void main()
-{
-	double f, x = 10;
-	f = function(x);
-	printf("x = %.4lf\nf = %.4lf\n\nx = ", x,f);
-        scanf("%lf", &x);
-	f = function(x);
-	printf("f = %.4lf", f);
+    double f;
+    x <= 3 ? (f=pow(x, 2) - 3 * x + 9 ): (f=1/(pow(x, 3) + 6));
+    return (f);
 }
